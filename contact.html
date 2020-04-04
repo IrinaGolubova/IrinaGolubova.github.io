@@ -78,14 +78,14 @@
 						</div>
 					</div>
 					<div class="col-lg-7">
-						<form class="contact-form">
+						<form class="contact-form" action="https://formspree.io/xbjadjae" method="POST">
 							<label for="y-name">Ваше Имя:</label>
-							<input type="text" id="y-name">
+							<input name="name" type="text" id="y-name">
 							<label for="y-email">Ваш Email:</label>
-							<input type="text" id="y-email">
+							<input name="_replyto" type="email" id="y-email">
 							<label for="y-msg">Оставьте своё сообщение:</label>
-							<textarea id="y-msg"></textarea>
-							<button class="site-btn">Отправить</button>
+							<textarea name="message" id="y-msg"></textarea>
+							<button type="submit" class="site-btn" value="Send">Отправить</button>
 						</form>
 					</div>
 				</div>
